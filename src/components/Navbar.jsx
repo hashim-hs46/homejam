@@ -40,7 +40,7 @@ export default function ButtonAppBar() {
         <Container maxWidth="lg">
           <Toolbar className={classes.toolbar}>
             <div>
-              <img src='/images/Logo.png' />
+              <img alt="brandjam" src='/images/Logo.png' />
             </div>
             <div className={classes.navlink}>
               <Button style={{ textTransform: 'unset' }} color="inherit" startIcon={<Search />}>Search</Button>
